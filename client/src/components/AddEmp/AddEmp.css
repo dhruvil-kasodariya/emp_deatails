@@ -1,0 +1,26 @@
+.input,
+.textarea {
+  width: 100%;
+}
+
+.btn-submit {
+  background-color: #1267e6;
+  padding: 8px;
+  width: 40%;
+  color: azure;
+  cursor: pointer;
+}
+.btn-reset{
+  background-color: black;
+  padding: 8px;
+  width: 40%;
+  color: azure;
+  cursor: pointer;
+}
+
+.divBtn{
+  display: flex;
+  justify-content: space-around;
+}
+
+

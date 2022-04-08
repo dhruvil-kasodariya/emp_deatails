@@ -1,0 +1,7 @@
+.head{
+    display: flex;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    justify-content:space-between;
+}
+

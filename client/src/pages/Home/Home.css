@@ -1,0 +1,110 @@
+.tr{
+    text-align: center;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+.table ,.tr ,.td{
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.td :hover{
+background-color: gray;
+}
+
+.table{
+    width: 100%;
+}
+
+.btn_delete{
+    background-color: red;
+    border-radius: 5px;
+    height: 5%;
+    padding: 1% 5%;
+    margin-right: 10%;
+    font-size: large;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn_view{
+    background-color: lightblue;
+    border-radius: 5px;
+    margin-right: 10%;
+    font-size: large;
+    align-items: center;
+    cursor: pointer;
+}
+
+.tdAction{
+    display: flex;
+    justify-content: space-between;
+    border-style: solid;
+    border-collapse: collapse;
+}
+
+.tdAction :hover{
+    background-color: gray;
+    }
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.page-item{
+    margin: 0%;
+    border: 2px solid black;
+    list-style-type: none;
+    padding: 0.5%;
+    background-color: #d3e4f2;
+    cursor: pointer;
+    border-collapse: collapse;
+}
+
+.page-item:hover{
+    background-color: gray;
+}
+
+.active{
+    background-color: aqua;
+}
+.page-link{
+    color: blue;
+}
+  a:hover {
+    color: green;
+  }
+  
+  a:active {
+    color: red;
+  }
+  
+.searchBar{
+    padding: 0.5%;
+    border-radius: 5px 0 0 5px ;
+    border: 2px solid;
+    border-right: 0;
+    margin-left: 2%;
+}
+.searchBar:hover,.btn-search:hover{
+    background-color: gray;
+}
+
+.searchForm{
+    display: flex;
+    align-items: center;
+}
+
+.btn-search{
+    padding: 0.5%;
+    border-radius:0 5px 5px 0;
+    border: 2px solid;
+    border-left: 0;
+    width: 5%;
+    background-color: aqua;
+    cursor: pointer;
+}
+
+
